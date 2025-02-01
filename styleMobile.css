@@ -1,0 +1,125 @@
+@media(max-width: 480px) {
+    @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        width: 85%;
+        margin: auto;
+        font-size: 2.5em;
+        color: white;
+        padding: .5em;
+        font-family: "Cormorant SC", serif;
+        font-weight: 300;
+        letter-spacing: 0.2em;
+        border-bottom: 0.5px solid white;
+    }
+
+    body {
+        background-color: rgb(41, 41, 41);
+        width: 100%;
+    }
+
+    /* Gift List*/
+
+    #list {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5em;
+        padding-bottom: 200px;
+    }
+
+    .gift {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+        padding-top: 0;
+        border-radius: 10px;
+        background-color: white;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .gift:hover {
+        width: 52%;
+    }
+
+    .gift h1 {
+        color: black;
+        letter-spacing: 0;
+        text-align: center;
+        font-family: "Comfortaa", serif;
+        margin-top: 0px;
+        padding: 30px;
+        padding-bottom: 10px;
+        font-size: 0em;
+    }
+
+    .gift p {
+        text-align: center;
+        font-family: "Cormorant SC", serif;
+        font-size: 1.5em;
+    }
+
+
+    .statusGiftTrue {
+        width: 35%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        color: white;
+        background-color: rgb(81, 161, 81);
+        border-radius: 0 10px 0 10px; 
+        text-align: center;
+    }
+
+    .statusGiftContainer p {
+        font-family: "Comfortaa", serif;
+        font-size: 1.2em;
+        padding: 5px;
+    }
+
+    .statusGiftFalse {
+        width: 35%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        color: white;
+        background-color: rgb(173, 165, 48);
+        border-radius: 0 10px 0 10px; 
+        text-align: center;
+    }
+
+
+    .imgGift {
+        width: 90%;
+        height: 17em;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .imgGift img {
+        width: 100%;
+        margin-top: -20%;
+    }
+
+
+}
