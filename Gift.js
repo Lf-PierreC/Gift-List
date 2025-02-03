@@ -134,7 +134,7 @@ gift23.addGift();
 const gift24 = new Gift('false', './Imagens/ferramentas.jpg', 'Ferramentas, Gui vai ter que aprender na marra', 'R$150');
 gift24.addGift();
 
-const gift25 = new Gift('false', './Imagens/camisa_corinthians.jpg', 'Camisa do Corinthians pro Gui', 'R$125');
+const gift25 = new Gift('false', './Imagens/arena_corinthians.jpeg', 'Ajuda para o Gui e Aline irem na Arena', 'R$125');
 gift25.addGift();
 
 const gift26 = new Gift('false', './Imagens/po_cafe.jpg', 'Pó de café pro vício da Aline', 'R$70');
@@ -209,7 +209,7 @@ gift48.addGift();
 const gift49 = new Gift('false', './Imagens/cama_casal.jpg', 'Cama de casal', 'R$970');
 gift49.addGift();
 
-const gift50 = new Gift('false', './Imagens/colchao.jpg', 'Colchão', 'R$630');
+const gift50 = new Gift('false', './Imagens/colchao.png', 'Colchão', 'R$630');
 gift50.addGift();
 
 const gift51 = new Gift('false', './Imagens/guarda_roupa.jpg', 'Guarda-roupa', 'R$1000');
