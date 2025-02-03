@@ -28,6 +28,11 @@
         border-bottom: 0.5px solid white;
     }
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
     body {
         background-color: rgb(41, 41, 41);
         width: 100%;
@@ -111,16 +116,21 @@
 
     .imgGift {
         width: 90%;
-        height: 15em;
+        height: 17em;
         margin: auto;
         overflow: hidden;
         border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-
+    
     .imgGift img {
         width: 100%;
-        margin-top: -20%;
+        height: 100%;
+        object-fit: cover; 
     }
+    
 
 
 }

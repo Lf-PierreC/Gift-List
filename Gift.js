@@ -47,11 +47,16 @@ class Gift {
         valorGift.textContent = this.valor;
         giftText.appendChild(valorGift)
 
+        const linkElement = document.createElement('a');
+        linkElement.href = 'https://loja.infinitepay.io/theguicosta?search=';
+        linkElement.target = "_blank";
+        linkElement.appendChild(giftContainer);
+
         giftContainer.appendChild(statusGiftContainer);
         giftContainer.appendChild(imgGift);
         giftContainer.appendChild(giftText);
 
-        return giftContainer
+        return linkElement
     }
 
     addGift() {
@@ -60,7 +65,7 @@ class Gift {
     }
 }
 
-const gift2 = new Gift('false', './Imagens/lava_seca.jpg', 'Lava e Seca', 'R$2500');
+const gift2 = new Gift('false', './Imagens/lava_seca.png', 'Lava e Seca', 'R$2500');
 gift2.addGift();
 
 const gift3 = new Gift('false', './Imagens/geladeira.jpg', 'Geladeira', 'R$2800');
