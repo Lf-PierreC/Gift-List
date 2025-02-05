@@ -34,6 +34,10 @@ class Gift {
         imgSrc.className = 'printGift';
         imgGift.appendChild(imgSrc);
 
+        if (this.nome === 'Ferro a vapor') {
+            imgGift.classList.add('vaporImage'); 
+        }
+
         const giftText = document.createElement('div');
         giftText.className = 'textosGift';
 
