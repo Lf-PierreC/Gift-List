@@ -131,6 +131,11 @@
         object-fit: cover; 
     }
     
-
+    .vaporImage {
+        width: 35%;
+        height: 100%;
+        object-fit: cover; 
+    }
+    
 
 }
