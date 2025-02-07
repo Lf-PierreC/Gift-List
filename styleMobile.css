@@ -16,6 +16,13 @@
         text-align: center;
     }
 
+    header p {
+        margin-top: 1.5em;
+        font-size: 0.9em;
+        color: #b1afaf;
+        font-family: "Comfortaa", serif;
+    }
+
     h1 {
         width: 85%;
         margin: auto;
