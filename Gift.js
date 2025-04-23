@@ -72,7 +72,7 @@ class Gift {
 const gift2 = new Gift('false', './Imagens/lava_seca.png', 'Lava e Seca', 'R$2500');
 gift2.addGift();
 
-const gift3 = new Gift('false', './Imagens/geladeira.jpg', 'Geladeira', 'R$2800');
+const gift3 = new Gift('true', './Imagens/geladeira.jpg', 'Geladeira', 'R$2800');
 gift3.addGift();
 
 const gift4 = new Gift('false', './Imagens/cooktop.jpg', 'Cooktop', 'R$480');
